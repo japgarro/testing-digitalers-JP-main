@@ -1,21 +1,48 @@
 h1{
-    text-align: center;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #68bebe;
        
 }
 .imagenscrum{
     width: 100%;
     text-align: center; 
 }
+
 h2{
     text-align: center;
     border-bottom: 2px solid  #459aaf;
 }
+h6 {
+    text-align: center;
+}
 
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.carta {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #68bebe;
+}
+
+
+
+
+p{
+    text-align: justify;
+   
+}
 nav {
     list-style-type: none;
     margin: 0;
@@ -23,6 +50,8 @@ nav {
     overflow: hidden;
     background-color: #006b8b;
     border-radius: 12px
+    
+    
 }
 nav a {
     display: block;
@@ -34,6 +63,7 @@ nav a {
 
 nav a:hover {
     background-color: #459aaf;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
 img {
     width: 50%; /* La imagen ocupará el 100% del ancho de su contenedor */
@@ -49,7 +79,7 @@ img {
     background-color: #459aaf;
     font-size: 20px;
     border-radius: 2px     
-    padding-left: 30px; 
+    padding-left 30px; 
  }
  #logo-digitalers{
     width: 10%; /* La imagen ocupará el 100% del ancho de su contenedor */
@@ -73,5 +103,5 @@ img {
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
     padding-block: 1%;
     float: right; 
-    
+   
  }
