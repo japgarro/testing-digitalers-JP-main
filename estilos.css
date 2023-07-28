@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+       
+}
+.imagenscrum{
+    width: 100%;
+    text-align: center; 
+}
+h2{
+    text-align: center;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006b8b;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #459aaf;
+}
+img {
+    width: 50%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 50%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+    align-content: center;
+  }
+ footer{
+    display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    background-color: #459aaf;
+    font-size: 20px;
+   
+ }
+ #logo-digitalers{
+    width: 10%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 10%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+    padding-block: 1%;
+   
+ }
+
+ #flecha{
+    width: 2%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 2%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+    padding-block: 1%;
+    float: right; 
+    
+ }
+ #flechafinal{
+    width: 5%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 5%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+    padding-block: 1%;
+    float: right; 
+    
+ }
