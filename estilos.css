@@ -13,6 +13,7 @@ h1{
 }
 h2{
     text-align: center;
+    border-bottom: 2px solid  #459aaf;
 }
 
 nav {
@@ -21,6 +22,7 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #006b8b;
+    border-radius: 12px
 }
 nav a {
     display: block;
@@ -46,13 +48,14 @@ img {
     text-decoration: none;
     background-color: #459aaf;
     font-size: 20px;
-   
+    border-radius: 2px     
+    padding-left: 30px; 
  }
  #logo-digitalers{
     width: 10%; /* La imagen ocupará el 100% del ancho de su contenedor */
     max-width: 10%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
-    padding-block: 1%;
+    padding-block: 1%
    
  }
 
