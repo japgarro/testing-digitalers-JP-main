@@ -2,9 +2,12 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   padding: 16px;
   text-align: center;
-  background-color: #68bebe;
+  background-color: #7ffdd7;
        
 }
+ body{
+    text-align: justify;
+ }
 .imagenscrum{
     width: 100%;
     text-align: center; 
@@ -13,6 +16,7 @@ h1{
 h2{
     text-align: center;
     border-bottom: 2px solid  #459aaf;
+    
 }
 h6 {
     text-align: center;
@@ -29,12 +33,7 @@ h6 {
 }
 
 
-.carta {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 16px;
-  text-align: center;
-  background-color: #68bebe;
-}
+
 
 
 
@@ -45,11 +44,12 @@ p{
 }
 nav {
     list-style-type: none;
-    margin: 0;
+    margin: 100;
     padding: 0;
     overflow: hidden;
     background-color: #006b8b;
     border-radius: 12px
+    
     
     
 }
@@ -70,7 +70,9 @@ img {
     max-width: 50%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
     align-content: center;
+   
   }
+
  footer{
     display: block;
     color: black;
@@ -100,8 +102,41 @@ img {
  #flechafinal{
     width: 5%; /* La imagen ocupará el 100% del ancho de su contenedor */
     max-width: 5%; /* La imagen no superará su tamaño original si es más pequeña que el contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
-    padding-block: 1%;
     float: right; 
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 12px
    
  }
+
+.carta{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #7ffdd7;
+    padding: 10px;
+}
+
+
+ .card {
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+
+.card h2 {
+  margin: 10px 0;
+}
+
+
+.card p {
+  margin: 0;
+}
